@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/33278408/README.1.md)
 # 📉 Telecom Customer Churn: End-to-End Data Pipeline
 
 One dataset, seven stages: **EDA → SQL → Feature Engineering → Machine Learning → Deep Learning → Dashboard → Deployment & Report**.
@@ -12,7 +11,7 @@ I'm taking a single messy telecom dataset through the full data lifecycle to sho
 | 1 | Exploratory Data Analysis (Python) | ✅ Complete |
 | 2 | SQL Analysis | 🔜 Coming soon |
 | 3 | Feature Engineering | 🔜 Coming soon |
-| 4 | Machine Learning | 🔜 Coming soon |[requirements.txt](https://github.com/user-attachments/files/33278455/requirements.txt)
+| 4 | Machine Learning | 🔜 Coming soon |
 | 5 | Deep Learning | 🔜 Coming soon |
 | 6 | Interactive Dashboard | 🔜 Coming soon |
 | 7 | Deployment (Streamlit app) & Final Report | 🔜 Coming soon |
@@ -28,7 +27,6 @@ Telecom companies lose recurring revenue when customers churn, but raw customer 
 Clean a messy dataset end-to-end, find the drivers of churn, and convert findings into revenue-at-risk figures.
 
 ### Dataset
-
 - **5,500** raw records, **12** columns, reduced to **5,463** after cleaning
 - Target: `Churn` (Yes/No)
 - File: [`data/telco_churn_dirty.csv`](data/telco_churn_dirty.csv)
@@ -60,18 +58,20 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
 
 ### 📂 Repository Structure
 ```
-customer-churn-analysis-telecom/
+Telecom-Customer-Churn-Analysis/
 │
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
 │
 ├── data/
-│   └── telco_churn_dirty.csv
+│   ├── telco_churn_dirty.csv
+│   └── telco_churn_cleaned.csv
 │
 ├── part1-eda/
 │   ├── EDA_Project.ipynb
-│   └── Telecom_Customer_Churn_Analysis.pdf
+│   ├── Telecom_Customer_Churn_Analysis.pdf
+│   └── Telecom_Customer_Churn_Analysis.pptx
 │
 ├── part2-sql/               (coming soon)
 ├── part3-feature-engineering/ (coming soon)
@@ -83,8 +83,8 @@ customer-churn-analysis-telecom/
 
 ### ▶️ How to Run
 ```bash
-git clone https://github.com/Shailesh-Pawar-18/customer-churn-analysis-telecom.git
-cd customer-churn-analysis-telecom
+git clone https://github.com/Shailesh-Pawar-18/Telecom-Customer-Churn-Analysis.git
+cd Telecom-Customer-Churn-Analysis
 pip install -r requirements.txt
 jupyter notebook part1-eda/EDA_Project.ipynb
 ```
@@ -96,5 +96,3 @@ jupyter notebook part1-eda/EDA_Project.ipynb
 🔗 [LinkedIn](https://linkedin.com/in/shaileshpawar-cse) · 💻 [GitHub](https://github.com/Shailesh-Pawar-18)
 
 ⭐ If you find this useful, star the repo and follow along for Part 2!
-
-

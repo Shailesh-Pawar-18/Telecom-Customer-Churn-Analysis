@@ -97,4 +97,4 @@ jupyter notebook part1-eda/EDA_Project.ipynb
 
 ⭐ If you find this useful, star the repo and follow along for Part 2!
 
-[Uploading requirements.txt…]()
+
